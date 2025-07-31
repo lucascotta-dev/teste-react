@@ -1,13 +1,13 @@
 .card {
   width: 200px;
-  height: 120px;
-  border: 1px solid #ccc;
+  height: 150px;
+  border: 1px solid #ddd;
   border-radius: 10px;
   padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  transition: background-color 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,6 +15,5 @@
 }
 
 .card.flipped {
-  background-color: #dff0d8;
-  transform: rotateY(180deg);
+  background-color: #d1e7dd;
 }
