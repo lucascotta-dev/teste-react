@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Flashcard from './Flashcard';
+import Flashcard from './components/FlashCard';
 import './App.css';
 
 const App = () => {
